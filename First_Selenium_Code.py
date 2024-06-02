@@ -12,5 +12,3 @@ time.sleep(10)
 
 # Close the browser
 driver.quit()
-
-
