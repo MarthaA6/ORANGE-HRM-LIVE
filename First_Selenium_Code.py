@@ -42,8 +42,7 @@ time.sleep(5)
 
 
 Leave_Button = driver.find_element(By.CSS_SELECTOR,
-                                   '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(4) > a')
-
+                                   '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(3) > a')
 Leave_Button.click()
 time.sleep(5)
 
@@ -59,22 +58,22 @@ time.sleep(5)
 
 
 MyInfo_Button = driver.find_element(By.CSS_SELECTOR,
-                                    '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(6) > a > span')
-Recruitment_Button.click()
+                                    '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(6) > a')
+MyInfo_Button.click()
 time.sleep(5)
 
 Performance_Button = driver.find_element(By.CSS_SELECTOR,
-                                         '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(7) > a > span')
+                                         '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(7) > a')
 Performance_Button.click()
 time.sleep(5)
 
 Dashboard_Button = driver.find_element(By.CSS_SELECTOR,
-                                       '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(8) > a > span')
+                                       '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(8) > a')
 Dashboard_Button.click()
 time.sleep(5)
 
-Directory_Button = driver.find_element(By.CSS_SELECTOR
-                                       '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(9) > a > span')
+Directory_Button = driver.find_element(By.CSS_SELECTOR,
+                                       '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(9) > a')
 Directory_Button.click()
 time.sleep(5)
 
@@ -82,17 +81,20 @@ Maintenance_Button = driver.find_element(By.CSS_SELECTOR,
                                          '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(10) > a > span')
 Maintenance_Button.click()
 time.sleep(5)
+Cancel_Button = driver.find_element(By.CSS_SELECTOR,
+                                    '#app > div.orangehrm-admin-access-container > div.orangehrm-card-container > form > div.orangehrm-admin-access-button-container > button.oxd-button.oxd-button--large.oxd-button--ghost.orangehrm-admin-access-button')
+Cancel_Button.click()
+time.sleep(5)
 
 Claim_Button = driver.find_element(By.CSS_SELECTOR,
                                    '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(11) > a')
 Claim_Button.click()
 time.sleep(5)
 
-Buzz_Button = driver.find_element(By.CSS_SELECTOR
-                                  '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(12) > a')
+Buzz_Button = driver.find_element(By.CSS_SELECTOR,
+                                  '#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(12) > a > span')
 Buzz_Button.click()
 time.sleep(5)
-
 
 # Close the browser
 driver.quit()
