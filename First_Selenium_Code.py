@@ -459,7 +459,7 @@ time.sleep(5)
 # ---------------------------------------------------------------------------------------------------------------------
 
 # REPORTS SUB-BUTTON --------------------------------------------------------------------------------------------------
-Reports_Button = driver.find.element(By.XPATH,
+Reports_Button = driver.find_element(By.XPATH,
                                      '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[4]')
 Reports_Button.click()
 time.sleep(5)
@@ -707,7 +707,7 @@ time.sleep(5)
 # 3 EMPLOYEE RECORDS DROP-DOWN ARROW
 EmployeeRecords_DropDown = driver.find_element(By.XPATH,
                                                '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/ul/li[3]')
-EmploymentStatus_DropDown.click()
+EmployeeRecords_DropDown.click()
 time.sleep(5)
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -720,7 +720,7 @@ time.sleep(5)
 
 # 4 CONFIGURATION DROP-DOWN ARROW
 Configuration_DropDown = driver.find_element(By.XPATH,
-                                             '')
+                                             '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/ul/li[4]')
 Configuration_DropDown.click()
 time.sleep(5)
 
@@ -728,7 +728,7 @@ time.sleep(5)
 
 # 11 REPORTS SUB-BUTTON -----------------------------------------------------------------------------------------------
 Reports11_Button = driver.find_element(By.XPATH,
-                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul')
+                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]')
 Reports11_Button.click()
 time.sleep(5)
 
@@ -742,21 +742,21 @@ time.sleep(5)
 
 # 22 REPORTS SUB-BUTTON -----------------------------------------------------------------------------------------------
 Reports22_Button = driver.find_element(By.XPATH,
-                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul')
+                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]')
 Reports22_Button.click()
 time.sleep(5)
 
 # 22 EMPLOYEE REPORTS DROP-DOWN ARROW
 EmployeeReports_DropDown = driver.find_element(By.XPATH,
                                                '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]/ul/li[2]')
-EmployeeEntitlements_DropDown.click()
+EmployeeReports_DropDown.click()
 time.sleep(5)
 
 # ---------------------------------------------------------------------------------------------------------------------
 
 # 33 REPORTS SUB-BUTTON -----------------------------------------------------------------------------------------------
 Reports33_Button = driver.find_element(By.XPATH,
-                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul')
+                                       '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]')
 Reports33_Button.click()
 time.sleep(5)
 
@@ -867,10 +867,10 @@ time.sleep(5)
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-# MANAGE REVIEWS SUB-BUTTON # -----------------------------------------------------------------------------------------
-ManageReviews_Button = driver.find_element(By.XPATH,
-                                           '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]')
-ManageReviews_Button.click()
+# 1 MANAGE REVIEWS SUB-BUTTON # -----------------------------------------------------------------------------------------
+ManageReviews1_Button = driver.find_element(By.XPATH,
+                                            '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]')
+ManageReviews1_Button.click()
 time.sleep(5)
 
 # MANAGE REVIEWS DROP-DOWN ARROW
@@ -881,10 +881,10 @@ time.sleep(5)
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-# MANAGE REVIEWS SUB-BUTTON # -----------------------------------------------------------------------------------------
-ManageReviews_Button = driver.find_element(By.XPATH,
-                                           '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]')
-ManageReviews_Button.click()
+# 2 MANAGE REVIEWS SUB-BUTTON # -----------------------------------------------------------------------------------------
+ManageReviews2_Button = driver.find_element(By.XPATH,
+                                            '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]')
+ManageReviews2_Button.click()
 time.sleep(5)
 
 # MY REVIEWS DROP-DOWN ARROW
@@ -895,10 +895,10 @@ time.sleep(5)
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-# MANAGE REVIEWS DROP-DOWN ARROW --------------------------------------------------------------------------------------
-ManageReviews_DropDown = driver.find_element(By.XPATH,
-                                             '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]/ul/li[1]')
-ManageReviews_DropDown.click()
+# 3 MANAGE REVIEWS DROP-DOWN ARROW --------------------------------------------------------------------------------------
+ManageReviews3_DropDown = driver.find_element(By.XPATH,
+                                              '//*[@id="app"]/div[1]/div[1]/header/div[2]/nav/ul/li[2]')
+ManageReviews3_DropDown.click()
 time.sleep(5)
 
 # EMPLOYEE REVIEWS SUB-BUTTON
