@@ -3,8 +3,6 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.support.ui import Select
 
 # Initialize the Chrome WebDriver using WebDriver manager
 driver = webdriver.Chrome()
