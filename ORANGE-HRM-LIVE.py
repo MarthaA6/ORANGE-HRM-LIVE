@@ -12,7 +12,7 @@ driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 driver.maximize_window()
 time.sleep(5)
 
-# LOGIN PAGE
+# LOGIN PAGE ----------------------------------------------------------------------------------------------------------
 # locate the username and password field
 UserName = driver.find_element(By.CSS_SELECTOR,
                                '#app > div.orangehrm-login-layout > div > div.orangehrm-login-container > div > div.orangehrm-login-slot > div.orangehrm-login-form > form > div:nth-child(2) > div > div:nth-child(2) > input')
