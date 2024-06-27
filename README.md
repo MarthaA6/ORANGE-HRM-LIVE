@@ -13,8 +13,8 @@ THE LOGIN PAGE:
 - Note: The login credentials is displayed on the login page.
 
 SIDE BAR:
-- I clicked the buttons (Admin, PIM, Leave, Time, Rrecruitment, My Info, Performance, Dashboard, Directory, Claim, and Buzz) on the side bar
-- I clicked the buttons (Admin, PIM, Leave, Time, Rrecruitment, Performance, Maintenance, and Claim)  navigation bar
+- I clicked the buttons (Admin, PIM, Leave, Time, Rrecruitment, My Info, Performance, Dashboard, Directory, Claim, and Buzz) on the side bar.
+- I clicked the navigation buttons for each buttons on the sidebar (Admin, PIM, Leave, Time, Rrecruitment, Performance, Maintenance, and Claim).
 
 ADMIN PAGE
 - I clicked the buttons (User Management, Jobs, Qualifications, Nationalities, Corporate Branding, and Configuration) on the navigation bar.
